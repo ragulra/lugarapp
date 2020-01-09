@@ -1,0 +1,618 @@
+* {
+  box-sizing: border-box;
+}
+.paddingplatform {
+  padding-top: 1em;
+  padding-bottom: 10px;
+}
+
+#section1 
+{
+  background-image: url("../img/NEW_LATEST_IMG/whyweexist.png");
+  background-size: 86%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* how we do */
+#section2 {
+  background-image: url("../img/NEW_LATEST_IMG/howwedo.png");
+  background-size: 64%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* ourvision */
+.bg-s-1 {
+  background-image: url("../img/NEW_LATEST_IMG/ourvision.png");
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.newParagraphFontStyle {
+  font-family: "Montserrat";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.58;
+  letter-spacing: inherit;
+}
+.section1-g-color {
+  background-color: #fefef7;
+}
+.section2-g-color {
+  background-color: rgb(255, 254, 225);
+}
+
+.section3-g-color {
+  background-color: rgb(255, 254, 225);
+}
+
+.header-title {
+  color: #1e73ac;
+  font-weight: 1000;
+  font-family: "Montserrat", bold;
+  font-size: 2.7rem !important;
+}
+
+.textarea-width {
+  width: 458px;
+}
+
+.group {
+  position: relative;
+  margin-bottom: 45px;
+}
+input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #757575;
+  background-color: rgb(255, 254, 225);
+}
+input:focus {
+  outline: none;
+}
+textarea {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #757575;
+  background-color: rgb(255, 254, 225);
+}
+textarea:focus {
+  outline: none;
+}
+
+label {
+  color: #999;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label,
+input:valid ~ label {
+  top: -20px;
+  font-size: 14px;
+  color: #5264ae;
+}
+
+.bar {
+  position: relative;
+  display: block;
+}
+.bar:before,
+.bar:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: #5264ae;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+.bar:before {
+  left: 50%;
+}
+.bar:after {
+  right: 50%;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: #5264ae;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+@-moz-keyframes inputHighlighter {
+  from {
+    background: #5264ae;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+@keyframes inputHighlighter {
+  from {
+    background: #5264ae;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+/* ===================== */
+.slider-1 {
+  background-image: url("../img/slider/transityresize--01.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.slider-2 {
+  background-image: url("../img/slider/transityresize--02.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slider-3 {
+  background-image: url("../img/slider/transityresize--03.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.slider-4 {
+  background-image: url("../img/slider/transityresize--04.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.slider-6 {
+  background-image: url("../img/slider/transityresize--06.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* // hide the slider arrow */
+.fp-controlArrow.fp-prev {
+  display: none !important;
+}
+.fp-controlArrow.fp-next {
+  display: none !important;
+}
+/* ============================================================== this is for responsive design =================================== */
+
+.header-padding
+{
+  padding: 40px;
+  padding-right: 20px;
+  padding-left: 80px !important;
+}
+
+.header-padding-2 
+{
+  padding: 40px;
+  padding-right: 40px;
+  padding-left: 20px !important;
+}
+
+.border-in-contactus 
+{
+  border: solid 2px black;
+  height: 25%;
+  margin-top: 150px;
+}
+
+.howwedoit 
+{
+  padding-top: 120px;
+  padding-right: 5.5rem;
+}
+
+.platformBenifitesHeaader 
+{
+  padding: 40px;
+  padding-top: 15px;
+  padding-right: 40px;
+  padding-left: 20px !important;
+}
+
+.blatformimage 
+{
+  padding-top: 52px;
+  padding-bottom: 48px;
+  padding-left: 15px;
+  width: 60%;
+}
+
+.w-75-lg {
+  width: 75%;
+}
+.ourvisionheader {
+  padding-top: 91px !important;
+  padding-left: 10px !important;
+}
+.ourvisionHeaderfont {
+  font-size: 4.5rem;
+  color: #609403;
+}
+.ourvisionsubHeaderfont {
+  font-size: 1.9rem;
+  color: #609403;
+}
+.whyusheading {
+  padding: 40px !important;
+  padding-right: 20px !important;
+  padding-top: 100px !important;
+}
+.whyusSubheading {
+  padding-top: 39px;
+  padding-left: 10px;
+}
+.whyus-ourkeyheding {
+  padding-top: 50px;
+  padding-left: 17px;
+  padding-bottom: 13px;
+}
+
+.whyus-ourkeyheding-top {
+  background-color: #1e73ac;
+  padding-left: 80px !important;
+  padding-top: 100px;
+}
+.contact-us-image-top 
+{
+  padding-top: 100px;
+}
+
+.pt-106 
+{
+  padding-top: 160px;
+}
+.blatformimagesize
+{
+  object-fit:cover;
+  width: 100%;
+}
+
+.platformtopPadding
+{
+  padding-top:3rem!important;
+}
+
+.padding-top-submitbutton
+{
+  padding-top:1.5rem!important;
+}
+
+
+#mobilebanner-withtext
+{
+  background: url(../img/frontbage.png);
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  /* height: 100%;  */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 580px;
+}
+
+.bg-text 
+{
+  color: white;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 4.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 63%;
+  padding: 20px;
+  text-align: center;
+}
+
+#slide {
+   position: absolute;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) 
+{}
+/* ##Device = Laptops, Desktops##Screen = B/w 1025px to 1280px*/
+@media (min-width: 1025px) and (max-width: 1280px){}
+/* ##Device = Tablets, Ipads (portrait) ##Screen = B/w 768px to 1024px*/
+@media (min-width: 768px) and (max-width: 1024px){}
+/* ##Device = Tablets, Ipads (landscape) ##Screen = B/w 768px to 1024px*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* //CSS */
+  .header-padding {
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 30px !important;
+  }
+  .header-padding-2 {
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 10px !important;
+  }
+  #section1 {
+    background-size: 86%;
+    height: 400px;
+  }
+  .header-title {
+    font-size: 2rem !important;
+  }
+  .newParagraphFontStyle {
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .blatformimagesize
+    {
+      object-fit:cover;
+      width: 50%;
+    }
+
+  .border-in-contactus {
+    border: none;
+    height: none;
+    margin-top: none;
+  }
+  .textarea-width {
+    width: 200px;
+  }
+  .howwedoit {
+    padding-top: 10px;
+    padding-right: 0.2rem;
+    padding-left: 15px;
+  }
+  #section2 {
+    height: 400px;
+  }
+  .w-75-lg {
+    width: 50%;
+  }
+  .ourvisionheader {
+    padding-top: 10px !important;
+    padding-left: 10px !important;
+  }
+  .bg-s-1 {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+  }
+  .whyusheading {
+    padding: 10px !important;
+    padding-right: 10px !important;
+    padding-left: 30px !important;
+    padding-top: 20px !important;
+  }
+  .whyusSubheading {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  .whyus-ourkeyheding {
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 13px;
+  }
+  .whyus-ourkeyheding-top {
+    padding-left: 30x !important;
+    padding-top: 20px;
+  }
+  .contact-us-image-top {
+    padding-top: 0px;
+  }
+  .pt-106 {
+    padding-top: 1px;
+  }
+  .section3-g-color 
+  {
+    background-color: #fefef7;
+  }
+  .paddingplatform 
+  {
+    padding-top: 5px;
+    padding-bottom: 16px;
+  }
+  .blatformimage{
+    width: 100%;
+  }
+  .platformtopPadding
+  {
+    padding-top:0rem!important;
+  }
+  .padding-top-submitbutton
+  {
+    padding-top:0rem!important;
+  }
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+@media (min-width: 320px) and (max-width: 480px) {
+  .header-padding {
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 30px !important;
+  }
+  .header-padding-2 {
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 10px !important;
+  }
+  .header-title {
+    font-size: 2rem !important;
+  }
+
+  #section1 {
+    background-size: 86%;
+    height: 400px;
+  }
+  #section2 {
+    height: 400px;
+  }
+  .newParagraphFontStyle {
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .textarea-width {
+    width: 200px;
+  }
+
+  .border-in-contactus {
+    border: none;
+    height: none;
+    margin-top: none;
+  }
+  .howwedoit {
+    padding-top: 10px;
+    padding-right: 0.2rem;
+    padding-left: 15px;
+  }
+  .w-75-lg {
+    width: 50%;
+  }
+  .ourvisionheader {
+    padding-top: 10px !important;
+    padding-left: 10px !important;
+  }
+  .bg-s-1 {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+  }
+
+  .whyusheading {
+    padding: 10px !important;
+    padding-right: 10px !important;
+    padding-left: 30px !important;
+    padding-top: 20px !important;
+  }
+  .whyusSubheading {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .whyus-ourkeyheding {
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 13px;
+  }
+  .whyus-ourkeyheding-top {
+    padding-left: 30px !important;
+    padding-top: 20px;
+  }
+
+  .pt-106 
+  {
+    padding-top: 1px;
+  }
+  .contact-us-image-top 
+  {
+    padding-top: 0px;
+  }
+
+  .section3-g-color {
+    background-color: #fefef7;
+  }
+  .paddingplatform {
+    padding-top: 4px;
+    padding-bottom: 16px;
+  }
+  .blatformimage 
+  {
+    width: 100%;
+  }
+
+  .blatformimagesize
+  {
+    object-fit:cover;
+    width: 50%;
+  }
+  .platformtopPadding
+  {
+      padding-top:0rem!important;
+  }
+  .padding-top-submitbutton
+  {
+    padding-top:0rem!important;
+  }
+
+}
+
+/* .typewriter p {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden; Ensures the content is not revealed until the animation
+    border-right: .15em solid orange; The typwriter cursor
+    white-space: nowrap; Keeps the content on a single line
+    margin: 0 auto; Gives that scrolling effect as the typing happens
+    letter-spacing: .15em; Adjust as needed
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  } */
+
+/* The typing effect */
+/* @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  } */
+
+/* The typewriter cursor effect */
+/* @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  } */
